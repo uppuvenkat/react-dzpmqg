@@ -4,9 +4,6 @@ import { render } from 'react-dom';
 class GridDisp extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      name: 'Venkat',
-    };
   }
     render() {
     return (
