@@ -1,3 +1,26 @@
 h1, p {
   font-family: Lato;
 }
+.main{
+  /* color: red; */
+}
+.button{
+  padding: 10px;
+  width: 40%;
+  /* border: 1px solid; */
+  height:200px;
+  float: left;
+}
+.gridDisp{
+  width: 48%;
+  /* border: 1px solid; */
+  height:200px;
+  float: right;
+}
+.gridDisp td {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+

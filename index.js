@@ -18,6 +18,24 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
+        <div className = 'main' >
+            <div className = 'button'>
+              <table>
+                <tr><td></td><td><button>T</button></td><td></td></tr>
+                <tr><td><button>L</button></td><td></td><td><button>R</button></td></tr>
+                <tr><td></td><td><button>D</button></td><td></td></tr>
+
+              </table>
+            </div>
+            <div className = 'gridDisp'>
+                 <table>
+                <tr><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td></tr>
+
+              </table>
+            </div>
+        </div>
       </div>
     );
   }
